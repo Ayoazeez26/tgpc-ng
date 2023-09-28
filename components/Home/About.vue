@@ -1,12 +1,16 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="my-[40px] lg:mt-[100px] px-4 md:px-0 mx-auto w-full max-w-[1240px] ">
+  <div
+    class="my-[40px] lg:mt-[100px] px-4 md:px-0 mx-auto w-full max-w-[1312px]"
+  >
     <div class="h-px bg-black dark:bg-white" />
     <div
       class="flex flex-col md:flex-row justify-between items-start mt-10 lg:mt-16 w-full"
     >
       <div class="w-full max-w-[542px]">
-        <h2 class="font-bold leading-snug text-3xl lg:text-4xl text-black dark:text-white">
+        <h2
+          class="font-bold leading-snug text-3xl lg:text-4xl text-black dark:text-white"
+        >
           About TGPC Media
         </h2>
       </div>

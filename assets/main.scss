@@ -50,3 +50,14 @@ h1, h2, h3, h4, h5, h6 {
   height: 60px !important;
   border-radius: 50% !important;
 }
+
+.text-bg {
+  background: linear-gradient(
+    126deg,
+    #fff 51.73%,
+    rgba(255, 255, 255, 0.3) 96.02%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

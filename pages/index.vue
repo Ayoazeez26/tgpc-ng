@@ -1,10 +1,17 @@
 <template>
-  <div class="">
+  <div class="bg-grey-2">
+    <AppHeader />
     <HomeHero />
-    <HomeMission />
+    <HomeSecondSection />
+    <HomeThirdSection />
+    <HomeFourthSection />
+    <!-- <HomeMission /> -->
     <HomeServices />
-    <HomeTestimonials />
-    <HomeBlog />
+    <HomeSixthSection />
+    <HomeSeventhSection />
+    <HomeEightSection />
+    <!-- <HomeTestimonials /> -->
+    <!-- <HomeBlog /> -->
   </div>
 </template>
 
