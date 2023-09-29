@@ -53,8 +53,8 @@ const services = ref([
                 <p class="font-medium text-black">John Doe</p>
                 <p class="">Marketing Director, XYZ Company</p>
               </div>
-              <div class="w-px hidden md:block h-[60px] bg-black" />
-              <img class="w-[120px]" src="/svg/webflow-sm.svg" alt="impact image" />
+              <!-- <div class="w-px hidden md:block h-[60px] bg-black" />
+              <img class="w-[120px]" src="/svg/webflow-sm.svg" alt="impact image" /> -->
             </div>
           </div>
         </div>
@@ -76,8 +76,8 @@ const services = ref([
                 <p class="font-medium text-black">Jane Smith</p>
                 <p class="">CEO, ABC Corporation</p>
               </div>
-              <div class="w-px hidden md:block h-[60px] bg-black" />
-              <img class="w-[120px]" src="/svg/webflow-sm.svg" alt="impact image" />
+              <!-- <div class="w-px hidden md:block h-[60px] bg-black" />
+              <img class="w-[120px]" src="/svg/webflow-sm.svg" alt="impact image" /> -->
             </div>
           </div>
         </div>
