@@ -86,7 +86,7 @@ const team = ref([
           </div>
           <div class="flex gap-[14px]">
             <a :herf="member.linkedIn">
-              <img src="/svg/linkedin.svg" alt="linkedin" />
+              <img src="/svg/linkedIn.svg" alt="linkedin" />
             </a>
             <a :herf="member.twitter">
               <img src="/svg/x.svg" alt="x" />
