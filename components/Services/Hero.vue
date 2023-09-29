@@ -22,7 +22,7 @@
             class="absolute w-[calc(100%-16px)] h-full bg-black dark:bg-white rounded-lg top-4 right-0 z-0"
           />
         </div> -->
-        <p class="leading-[150%] mt-6 text-white w-full max-w-[612px]">
+        <p class="leading-[150%] mt-6 md:text-lg md:leading-[150%] text-white">
           TGPC offers a wide range of offshoring services, including bid
           writing, marketing, and social media management.
         </p>

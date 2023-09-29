@@ -58,88 +58,74 @@ onMounted(() => {
           Empowering businesses to achieve extraordinary growth
         </p>
         <div
-          class="wrapper w-[400%] h-12 left-1/2 top-[40%] overflow-hidden mt-12"
+          class="wrapper w-[350%] h-12 left-1/2 top-[40%] overflow-hidden mt-12"
         >
           <div class="images">
             <div class="image absolute w-[200px] h-12 mx-6">
-              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
+              <img class="w-[200px] h-12" src="/svg/crystalize.svg" alt="crystalize" />
             </div>
             <div class="image absolute w-[200px] h-12 mx-6">
               <img
                 class="w-[200px] h-12"
-                src="/svg/webflow.svg"
-                alt="webflow"
+                src="/svg/treasure.svg"
+                alt="treasure"
               />
             </div>
             <div class="image absolute w-[200px] h-12 mx-6">
-              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
+              <img class="w-[200px] h-12" src="/svg/wana.svg" alt="wana" />
             </div>
             <div class="image absolute w-[200px] h-12 mx-6">
               <img
                 class="w-[200px] h-12"
-                src="/svg/webflow.svg"
-                alt="webflow"
+                src="/svg/tgpc.svg"
+                alt="tgpc"
               />
             </div>
             <div class="image absolute w-[200px] h-12 mx-6">
-              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
+              <img class="w-[200px] h-12" src="/svg/ocmc.svg" alt="ocmc" />
             </div>
             <div class="image absolute w-[200px] h-12 mx-6">
               <img
                 class="w-[200px] h-12"
-                src="/svg/webflow.svg"
-                alt="webflow"
+                src="/svg/dependable.svg"
+                alt="dependable"
               />
             </div>
             <div class="image absolute w-[200px] h-12 mx-6">
-              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
+              <img class="w-[200px] h-12" src="/svg/proper.svg" alt="proper" />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img class="w-[200px] h-12" src="/svg/crystalize.svg" alt="crystalize" />
             </div>
             <div class="image absolute w-[200px] h-12 mx-6">
               <img
                 class="w-[200px] h-12"
-                src="/svg/webflow.svg"
-                alt="webflow"
+                src="/svg/treasure.svg"
+                alt="treasure"
               />
             </div>
             <div class="image absolute w-[200px] h-12 mx-6">
-              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
+              <img class="w-[200px] h-12" src="/svg/wana.svg" alt="wana" />
             </div>
             <div class="image absolute w-[200px] h-12 mx-6">
               <img
                 class="w-[200px] h-12"
-                src="/svg/webflow.svg"
-                alt="webflow"
+                src="/svg/tgpc.svg"
+                alt="tgpc"
               />
             </div>
             <div class="image absolute w-[200px] h-12 mx-6">
-              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
+              <img class="w-[200px] h-12" src="/svg/ocmc.svg" alt="ocmc" />
             </div>
             <div class="image absolute w-[200px] h-12 mx-6">
               <img
                 class="w-[200px] h-12"
-                src="/svg/webflow.svg"
-                alt="webflow"
+                src="/svg/dependable.svg"
+                alt="dependable"
               />
             </div>
             <div class="image absolute w-[200px] h-12 mx-6">
-              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
-            </div>
-            <div class="image absolute w-[200px] h-12 mx-6">
-              <img
-                class="w-[200px] h-12"
-                src="/svg/webflow.svg"
-                alt="webflow"
-              />
-            </div>
-            <div class="image absolute w-[200px] h-12 mx-6">
-              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
-            </div>
-            <div class="image absolute w-[200px] h-12 mx-6">
-              <img
-                class="w-[200px] h-12"
-                src="/svg/webflow.svg"
-                alt="webflow"
-              />
+              <img class="w-[200px] h-12" src="/svg/proper.svg" alt="proper" />
             </div>
           </div>
         </div>

@@ -11,11 +11,10 @@
           <img class="w-12" src="/img/star.png" alt="cost" />
           <div class="flex flex-col gap-2">
             <h3 class="text-xl font-bold leading-[140%]">
-              Benefits of using TGPC's services:
+              Seamless Integration
             </h3>
             <p class="leading-[150%]">
-              Seamless Integration, Customized Solutions, Improved Efficiency,
-              Access to a Global Talent Pool.
+              Have your offshoring team up and productive and integrated with your business from day 1
             </p>
           </div>
         </div>
@@ -25,11 +24,10 @@
           <img class="w-12" src="/img/star.png" alt="cost" />
           <div class="flex flex-col gap-2">
             <h3 class="text-xl font-bold leading-[140%]">
-              Benefits of using TGPC's services:
+              Access to a Global Talent Pool
             </h3>
             <p class="leading-[150%]">
-              Seamless Integration, Customized Solutions, Improved Efficiency,
-              Access to a Global Talent Pool.
+              Gain access to a massive talent pool of professionals to give your business the competitive edge
             </p>
           </div>
         </div>
@@ -39,11 +37,10 @@
           <img class="w-12" src="/img/star.png" alt="cost" />
           <div class="flex flex-col gap-2">
             <h3 class="text-xl font-bold leading-[140%]">
-              Benefits of using TGPC's services:
+              Customised Solutions
             </h3>
             <p class="leading-[150%]">
-              Seamless Integration, Customized Solutions, Improved Efficiency,
-              Access to a Global Talent Pool.
+              Have a completely flexible and bespoke service suited to your business needs and challenges
             </p>
           </div>
         </div>

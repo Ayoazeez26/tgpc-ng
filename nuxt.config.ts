@@ -23,10 +23,6 @@ export default defineNuxtConfig({
       ],
       script: [
         {
-          src: "https://cdnjs.cloudflare.com/ajax/libs/video.js/8.3.0/video.min.js",
-          defer: true,
-        },
-        {
           hid: "tawk.to",
           src: "https://embed.tawk.to/64b6bac7cc26a871b0293389/1h5ksj7mj",
           async: true,

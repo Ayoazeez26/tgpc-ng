@@ -25,7 +25,7 @@
             businesses across various industries, providing cost-effective
             solutions and expert staff.
           </p>
-          <div class="flex flex-col md:flex-row w-full md:w-auto gap-6 mt-8">
+          <!-- <div class="flex flex-col md:flex-row w-full md:w-auto gap-6 mt-8">
             <div class="flex flex-col gap-2">
               <h4 class="font-bold text-[48px] leading-[120%]">50%</h4>
               <p class="leading-[150%]">
@@ -40,7 +40,7 @@
                 Suspendisse varius enim in eros.
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="mt-10 md:mt-20 w-full">

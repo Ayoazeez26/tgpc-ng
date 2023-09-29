@@ -17,7 +17,7 @@
           improve efficiency, allowing you to focus on your core business.
         </p>
         <ul class="check-list list-inside flex flex-col gap-4 px-4 py-2 mt-8">
-          <li>Cost -effective Offshoring Solutions</li>
+          <li>Cost-effective Offshoring Solutions</li>
           <li>Enhanced Operational Efficiency</li>
           <li>Expertise at Affordable Rates</li>
         </ul>

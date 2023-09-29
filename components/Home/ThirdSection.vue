@@ -18,7 +18,7 @@
         <div
           class="border border-grey-3 bg-white rounded-2xl w-full md:max-w-[384px] gap-2 flex flex-col items-center px-6 pb-8 text-center"
         >
-          <img class="-translate-y-7" src="/img/cost.png" alt="cost" />
+          <img class="-translate-y-7 w-12" src="/img/cost.png" alt="cost" />
           <h3 class="text-xl font-bold -mt-5 leading-[140%]">
             Cost-Effective Solutions
           </h3>
@@ -29,23 +29,23 @@
         <div
           class="border border-grey-3 bg-white rounded-2xl w-full md:max-w-[384px] gap-2 flex flex-col items-center px-6 pb-8 text-center"
         >
-          <img class="-translate-y-7" src="/img/time.png" alt="cost" />
+          <img class="-translate-y-7 w-12" src="/img/time.png" alt="cost" />
           <h3 class="text-xl font-bold -mt-5 leading-[140%]">
-            Cost-Effective Solutions
+            Time-Saving Approach
           </h3>
           <p class="leading-[150%]">
-            Save money by outsourcing essential departments to us.
+            Become able to focus on your core services while we handle the rest.
           </p>
         </div>
         <div
           class="border border-grey-3 bg-white rounded-2xl w-full md:max-w-[384px] gap-2 flex flex-col items-center px-6 pb-8 text-center"
         >
-          <img class="-translate-y-7" src="/img/commit.png" alt="cost" />
+          <img class="-translate-y-7 w-12" src="/img/commit.png" alt="cost" />
           <h3 class="text-xl font-bold -mt-5 leading-[140%]">
-            Cost-Effective Solutions
+            Professional Commitment
           </h3>
           <p class="leading-[150%]">
-            Save money by outsourcing essential departments to us.
+            Receive dedicated support from our experienced team.
           </p>
         </div>
       </div>

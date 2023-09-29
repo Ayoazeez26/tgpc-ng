@@ -6,9 +6,10 @@
     <HomeThirdSection />
     <HomeFourthSection />
     <HomeServices />
-    <HomeSixthSection />
+    <!-- <HomeSixthSection /> -->
     <HomeSeventhSection />
     <HomeEightSection />
+    <AboutSeventhSection />
     <!-- <HomeBlog /> -->
   </div>
 </template>
