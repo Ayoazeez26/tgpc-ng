@@ -91,13 +91,13 @@ const team = ref([
             </p>
           </div>
           <div class="flex gap-[14px]">
-            <a :herf="member.linkedIn">
-              <img src="/svg/linkedin.svg" alt="linkedin" />
+            <a :href="member.linkedIn">
+              <img src="/svg/linkedIn.svg" alt="linkedin" />
             </a>
-            <a :herf="member.twitter">
+            <a :href="member.twitter">
               <img src="/svg/x.svg" alt="x" />
             </a>
-            <a :herf="member.dribble">
+            <a :href="member.dribble">
               <img src="/svg/dribble.svg" alt="dribble" />
             </a>
           </div>
