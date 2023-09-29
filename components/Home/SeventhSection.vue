@@ -1,24 +1,34 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="py-[140px] lg:py-[112px] bg-white w-full relative">
-    <img src="/svg/left-half.svg" alt="left half" class="absolute hidden md:block top-10 left-0">
-    <img src="/svg/right-half.svg" alt="left half" class="absolute hidden md:block bottom-10 right-0">
+  <div class="py-16 lg:py-[112px] bg-white w-full relative">
+    <img
+      src="/svg/left-half.svg"
+      alt="left half"
+      class="absolute hidden md:block top-10 left-0"
+    />
+    <img
+      src="/svg/right-half.svg"
+      alt="left half"
+      class="absolute hidden md:block bottom-10 right-0"
+    />
     <div
-      class="flex flex-col px-4 lg:px-0 items-center justify-center mx-auto w-full max-w-[1312px]"
+      class="flex flex-col px-5 xl:px-0 items-center justify-center mx-auto w-full max-w-[1312px]"
     >
       <div class="w-full flex flex-col gap-6 md:ml-4 max-w-[768px] text-center">
         <h2
-          class="font-bold leading-snug lg:leading-[120%] text-3xl lg:text-[48px] text-black dark:text-white"
+          class="font-bold leading-snug lg:leading-[120%] text-[36px] lg:text-[48px] text-black dark:text-white"
         >
           Outsource Your Operations with TGPC
         </h2>
 
-        <p class="leading-7 md:text-lg md:leading-[150%]">
+        <p class="md:text-lg md:leading-[150%] leading-[150%]">
           Experience the benefits of our offshoring and outsourcing services
           today
         </p>
       </div>
-      <div class="flex w-full gap-6 md:w-auto mt-6">
+      <div
+        class="flex flex-col md:flex-row gap-6 md:gap-5 mt-10 w-full md:w-auto"
+      >
         <nuxt-link
           to="#contact"
           class="border border-black bg-black w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-white"
@@ -32,7 +42,7 @@
         </nuxt-link>
         <nuxt-link
           to="#contact"
-          class="border border-grey-3 bg-white leading-normal w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-black"
+          class="border border-grey-3 bg-white w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-black"
           >Learn more
         </nuxt-link>
       </div>

@@ -15,7 +15,7 @@
           The Good Practice Company
         </p>
         <h2
-          class="font-semibold text-bg text-[28px] md:text-[40px] lg:text-[48px] leading-[44px] md:leading-[56px]"
+          class="font-semibold text-bg text-[36px] md:text-[40px] lg:text-[48px] leading-[44px] md:leading-[56px]"
         >
           Make a Positive Impact on the Lives of Your Patients!
         </h2>
@@ -45,7 +45,7 @@
       </div>
     </div>
     <div
-      class="border-b border-green/25 flex flex-col md:flex-row justify-between items-center w-full max-w-[1312px] mx-auto py-10"
+      class="border-b border-grey-4/25 flex flex-col md:flex-row justify-between items-center w-full max-w-[1312px] mx-auto py-10"
     >
       <div
         class="self-center flex flex-col items-center md:items-start md:self-auto text-center md:text-left max-w-fit"
@@ -58,7 +58,7 @@
       <div
         class="flex flex-wrap items-start gap-10 mt-14 md:mt-0 md:gap-[150px]"
       >
-        <div class="flex text-sm gap-10">
+        <div class="flex flex-col text-center md:flex-row md:text-left text-sm gap-10">
           <nuxt-link to="/">Home</nuxt-link>
           <nuxt-link to="/#about">About Us</nuxt-link>
           <nuxt-link to="/#services">Services</nuxt-link>
@@ -79,10 +79,10 @@
       </div>
     </div>
     <div class="py-6 text-sm mb-10">
-      <p class="text-center leading-snug mb-4 text-green">
+      <p class="text-center leading-snug mb-4">
         Designed by TGPC Media
       </p>
-      <p class="text-center leading-snug text-green">
+      <p class="text-center leading-snug">
         © {{ new Date().getFullYear() }} TGPC NG. All Rights Reserved.
       </p>
     </div>
@@ -93,7 +93,7 @@
 
 <style scoped lang="scss">
 .impact li {
-  background-image: url("~/assets/icons/check-circle.svg");
+  background-image: url("~/assets/icons/tick.svg");
   background-repeat: no-repeat;
 }
 li {

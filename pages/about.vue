@@ -10,6 +10,7 @@
     <!-- <AboutSixthSection /> -->
     <AboutSeventhSection />
     <AboutEightSection />
+    <AboutNinthSection />
     <!-- <AboutTestimonials /> -->
     <!-- <AboutBlog /> -->
   </div>

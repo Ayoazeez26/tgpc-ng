@@ -57,16 +57,16 @@ const team = ref([
 ]);
 </script>
 <template>
-  <div class="py-[140px] lg:py-[112px] mx-auto w-full max-w-[1312px]">
-    <div class="flex flex-col px-4 lg:px-0 items-center justify-center w-full">
+  <div class="py-16 lg:py-[112px] mx-auto w-full max-w-[1312px]">
+    <div class="flex flex-col px-5 xl:px-0 items-center justify-center w-full">
       <div class="w-full flex flex-col gap-6 md:ml-4 max-w-[768px] text-center">
         <h2
-          class="font-bold leading-snug lg:leading-[120%] text-3xl lg:text-[48px] text-black dark:text-white"
+          class="font-bold leading-snug lg:leading-[120%] text-[36px] lg:text-[48px] text-black dark:text-white"
         >
           Meet Our Team
         </h2>
 
-        <p class="leading-7 md:text-lg md:leading-[150%]">
+        <p class="leading-[150%] md:text-lg leading-[150%]">
           We are a team of experienced professionals.
         </p>
       </div>
@@ -99,11 +99,12 @@ const team = ref([
       </div>
       <div class="mt-24 text-center">
         <h3 class="text-[32px] font-bold leading-[130%]">We're hiring!</h3>
-        <p class="leading-7 md:text-lg mt-4 md:leading-[150%]">
-          We're always on the look out for passionate, dynamic and talented individuals.
+        <p class="leading-[150%] md:text-lg mt-4 md:leading-[150%]">
+          We're always on the look out for passionate, dynamic and talented
+          individuals.
         </p>
       </div>
-      <div class="flex w-full gap-6 md:w-auto mt-6">
+      <div class="flex w-3/5 gap-6 md:w-auto mt-6">
         <nuxt-link
           to="#contact"
           class="border border-grey-3 bg-white w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-black"

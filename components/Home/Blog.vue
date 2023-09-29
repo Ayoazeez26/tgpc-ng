@@ -32,7 +32,7 @@ const services = ref([
 </script>
 <template>
   <div
-    class="flex flex-col mb-40 lg:mb-[120px] px-4 lg:px-0 mx-auto w-full max-w-[1312px]"
+    class="flex flex-col mb-40 lg:mb-[120px] px-5 xl:px-0 mx-auto w-full max-w-[1312px]"
   >
     <!-- <div
       class="flex flex-col md:flex-row justify-between items-start mt-6 lg:mt-16 w-full"
@@ -72,7 +72,7 @@ const services = ref([
           <h5 class="text-xl font-semibold leading-[36px] ellipsis-text">
             {{ service.title }}
           </h5>
-          <p class="leading-7 mb-[37px] ellipsis-text">
+          <p class="leading-[150%] mb-[37px] ellipsis-text">
             {{ service.desc }}
           </p>
           <div class="flex justify-between items-center w-full">

@@ -33,11 +33,11 @@
       </button>
       <div
         @click="open = !open"
-        class="mt-6 hidden lg:mt-0 lg:flex flex-col md:flex-row gap-3 md:gap-5 w-full md:w-auto"
+        class="mt-6 hidden lg:mt-0 lg:flex flex-col md:flex-row gap-6 md:gap-5 w-full md:w-auto"
       >
         <nuxt-link
           to="#contact"
-          class="border border-black bg-white text-center text-sm font-semibold py-4 px-8 rounded leading-none text-black"
+          class="border border-grey-3 bg-white text-center text-sm font-semibold py-4 px-8 rounded leading-none text-black"
           >Learn more
           <Icon
             name="mdi:arrow-down"
@@ -81,11 +81,11 @@
             <nuxt-link to="#">Blog</nuxt-link>
           </li> -->
           <div
-            class="flex flex-col md:flex-row gap-3 md:gap-5 mt-10 w-full md:w-auto"
+            class="flex flex-col md:flex-row gap-6 md:gap-5 mt-10 w-full md:w-auto"
           >
             <nuxt-link
               to="#contact"
-              class="border border-black bg-white text-center text-sm font-semibold py-4 px-8 rounded leading-none text-black"
+              class="border border-grey-3 bg-white text-center text-sm font-semibold py-4 px-8 rounded leading-none text-black"
               >Learn more
               <Icon
                 name="mdi:arrow-down"

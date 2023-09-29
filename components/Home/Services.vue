@@ -50,7 +50,7 @@ onMounted(() => {
   <div class="bg-black-2 w-full mx-auto py-16 lg:pt-[120px] lg:pb-[220px]">
     <div
       ref="container"
-      class="mb-8 px-4 lg:px-0 flex flex-col md:flex-row items-start mx-auto w-full max-w-[1312px]"
+      class="mb-8 px-5 xl:px-0 flex flex-col md:flex-row items-start mx-auto w-full max-w-[1312px]"
     >
       <div
         ref="pinnedElement"
@@ -72,7 +72,7 @@ onMounted(() => {
           <h4 class="text-2xl mb-3 text-black font-semibold">01</h4>
           <div class="flex flex-col">
             <h4 class="text-xl text-black font-semibold">Discover More</h4>
-            <p class="mt-1 leading-7">
+            <p class="mt-1 leading-[150%]">
               Partner with TGPC to outsource essential departments, saving costs
               and increasing efficiency.
             </p>
@@ -84,7 +84,7 @@ onMounted(() => {
           <h4 class="text-2xl mb-3 text-black font-semibold">02</h4>
           <div class="flex flex-col">
             <h4 class="text-xl text-black font-semibold">Efficient Process</h4>
-            <p class="mt-1 leading-7">
+            <p class="mt-1 leading-[150%]">
               Our streamlined process ensures a seamless transition and
               effective management of offshored departments.
             </p>
@@ -96,7 +96,7 @@ onMounted(() => {
           <h4 class="text-2xl mb-3 text-black font-semibold">03</h4>
           <div class="flex flex-col">
             <h4 class="text-xl text-black font-semibold">Expert Staff</h4>
-            <p class="mt-1 leading-7">
+            <p class="mt-1 leading-[150%]">
               Access our pool of expert staff to handle your offshored
               departments with professionalism and dedication.
             </p>
@@ -108,7 +108,7 @@ onMounted(() => {
           <h4 class="text-2xl mb-3 text-black font-semibold">04</h4>
           <div class="flex flex-col">
             <h4 class="text-xl text-black font-semibold">Cost Savings</h4>
-            <p class="mt-1 leading-7">
+            <p class="mt-1 leading-[150%]">
               By offshoring with TGPC, you can reduce costs while maintaining
               high-quality services.
             </p>
@@ -120,5 +120,4 @@ onMounted(() => {
   </div>
 </template>
 
-<style scoped lang="scss">
-</style>
+<style scoped lang="scss"></style>

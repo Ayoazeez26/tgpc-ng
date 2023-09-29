@@ -5,12 +5,10 @@
     <HomeSecondSection />
     <HomeThirdSection />
     <HomeFourthSection />
-    <!-- <HomeMission /> -->
     <HomeServices />
     <HomeSixthSection />
     <HomeSeventhSection />
     <HomeEightSection />
-    <!-- <HomeTestimonials /> -->
     <!-- <HomeBlog /> -->
   </div>
 </template>

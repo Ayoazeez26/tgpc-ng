@@ -4,7 +4,7 @@
     class="mt-[140px] lg:mt-[200px] pb-40 mx-auto w-full max-w-[1312px] flex flex-col items-center"
   >
     <div
-      class="flex flex-col px-4 lg:px-0 justify-center items-center w-full max-w-[800px]"
+      class="flex flex-col px-5 xl:px-0 justify-center items-center w-full max-w-[800px]"
     >
       <h1
         class="font-bold leading-snug lg:leading-tight text-center text-3xl lg:text-4xl text-black"
@@ -19,7 +19,7 @@
           alt="hero image"
         />
       </div>
-      <p class="md:text-lg leading-7 mt-3 text-black/70">
+      <p class="md:text-lg leading-[150%] mt-3 text-black/70">
         As the world becomes more and more interconnected, businesses are
         increasingly reliant on their digital footprint to reach audiences and
         establish their brand. Small businesses can often face challenges when
@@ -31,7 +31,7 @@
       <h2 class="font-bold text-black text-left self-start mt-4 text-2xl">
         Create a strong and distinctive brand
       </h2>
-      <p class="md:text-lg leading-7 mt-3 text-black/70">
+      <p class="md:text-lg leading-[150%] mt-3 text-black/70">
         One of the most important things a small business can do to establish
         their digital footprint is to create a strong and distinctive brand.
         This means developing a logo and visual identity that reflects the
@@ -44,7 +44,7 @@
       <h2 class="font-bold text-black text-left self-start mt-4 text-2xl">
         Maximize social media engagement
       </h2>
-      <p class="md:text-lg leading-7 mt-3 text-black/70">
+      <p class="md:text-lg leading-[150%] mt-3 text-black/70">
         Social media is the ideal platform for small businesses to reach and
         engage with their audience, regardless of their industry. It's essential
         to first identify the social media platforms your audience is most
@@ -57,7 +57,7 @@
       <h2 class="font-bold text-black text-left self-start mt-4 text-2xl">
         Boost your SEO
       </h2>
-      <p class="md:text-lg leading-7 mt-3 text-black/70">
+      <p class="md:text-lg leading-[150%] mt-3 text-black/70">
         SEO, or Search Engine Optimization, is essential in order to maximize
         the visibility and reach of your website. Using relevant keywords,
         optimizing page titles and descriptions, creating quality content, and
@@ -71,7 +71,7 @@
       <h2 class="font-bold text-black text-left self-start mt-4 text-2xl">
         Invest in targeted digital advertising
       </h2>
-      <p class="md:text-lg leading-7 mt-3 text-black/70">
+      <p class="md:text-lg leading-[150%] mt-3 text-black/70">
         Paid digital advertising, including platforms such as Google Ads and
         Facebook Ads, can be a valuable tool in maximizing your digital
         footprint. Advertising can be targeted specifically to your desired
@@ -84,7 +84,7 @@
       <h2 class="font-bold text-black text-left self-start mt-4 text-2xl">
         Utilize local directories
       </h2>
-      <p class="md:text-lg leading-7 mt-3 text-black/70">
+      <p class="md:text-lg leading-[150%] mt-3 text-black/70">
         Local directories, such as Yelp, Google My Business, and Yellow Pages,
         are important for small businesses, especially those with a
         brick-and-mortar location. These directories provide customers with a
@@ -93,7 +93,7 @@
         information on these directories can attract new customers and help to
         increase your digital footprint.
       </p>
-      <p class="md:text-lg leading-7 mt-3 text-black/70">
+      <p class="md:text-lg leading-[150%] mt-3 text-black/70">
         The digital landscape is constantly evolving, and small businesses need
         to stay ahead of the curve in order to maximize their digital footprint
         and reach their target audience. By creating a strong brand presence,

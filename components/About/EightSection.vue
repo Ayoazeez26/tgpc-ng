@@ -1,48 +1,33 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="py-[140px] lg:py-[112px] mx-auto w-full max-w-[1312px]">
-    <div class="flex flex-col px-4 lg:px-0 items-center justify-center w-full">
-      <div class="w-full flex flex-col gap-6 md:ml-4 max-w-[768px] text-center">
-        <h2
-          class="font-bold leading-snug lg:leading-[120%] text-3xl lg:text-[48px] text-black dark:text-white"
-        >
-          We'd love to hear from you
-        </h2>
-
-        <p class="leading-7 md:text-lg md:leading-[150%]">
-          Chat to our friendly team.
-        </p>
-      </div>
-      <div class="mt-16 gap-8 flex justify-center flex-wrap w-full">
-        <div
-          class="border border-grey-3 bg-white rounded-2xl w-full md:max-w-[384px] gap-16 flex flex-col p-6"
-        >
-          <img class="w-12" src="/img/chat.png" alt="cost" />
-          <div class="flex flex-col">
-            <h3 class="text-xl font-bold leading-[140%]">Chat to sales</h3>
-            <p class="leading-[150%]">Speak to our friendly team.</p>
-            <a href="mailto:ssales@untitledui.com" class="mt-5 underline">sales@untitledui.com</a>
-          </div>
+  <div
+    class="bg-join-bg-mob md:bg-join-bg bg-black/50 bg-blend-multiply bg-center bg-cover text-white py-16 lg:py-[112px] w-full"
+  >
+    <div class="flex flex-col px-5 xl:px-0 mx-auto w-full max-w-[1312px]">
+      <div class="w-full max-w-[768px]">
+        <div class="">
+          <h3
+            class="text-[36px] text-white lg:text-[48px] font-bold leading-[130%]"
+          >
+            Outsourcing and Offshoring Solutions
+          </h3>
+          <p class="leading-[150%] md:text-lg mt-6 md:leading-[150%]">
+            Join the growing list of satisfied clients who trust TGPC for their
+            outsourcing and offshoring needs
+          </p>
         </div>
-        <div
-          class="border border-grey-3 bg-white rounded-2xl w-full md:max-w-[384px] gap-16 flex flex-col p-6"
-        >
-          <img class="w-12" src="/img/location.png" alt="cost" />
-          <div class="flex flex-col">
-            <h3 class="text-xl font-bold leading-[140%]">Chat to sales</h3>
-            <p class="leading-[150%]">Speak to our friendly team.</p>
-            <p class="mt-5 underline">100 Smith Street <br> Collingwood VIC 3066 AU</p>
-          </div>
-        </div>
-        <div
-          class="border border-grey-3 bg-white rounded-2xl w-full md:max-w-[384px] gap-16 flex flex-col p-6"
-        >
-          <img class="w-12" src="/img/phone.png" alt="cost" />
-          <div class="flex flex-col">
-            <h3 class="text-xl font-bold leading-[140%]">Visit us</h3>
-            <p class="leading-[150%]">Visit our office HQ.</p>
-            <p class="mt-5 underline">+1 (555) 000-0000</p>
-          </div>
+        <div class="flex w-full gap-6 md:w-auto mt-6">
+          <nuxt-link
+            to="#contact"
+            class="border border-grey-3 bg-black w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-white"
+            >Work with us
+            <Icon
+              name="mdi:arrow-right"
+              color="#FFF"
+              size="20"
+              class="ml-1 mb-0.5"
+            />
+          </nuxt-link>
         </div>
       </div>
     </div>

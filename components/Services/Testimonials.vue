@@ -1,0 +1,89 @@
+<script setup lang="ts">
+const services = ref([
+  {
+    name: "Crystallize Care Services",
+    title: "`",
+    image: "impact1",
+    desc: "Working with The Good Practice Company NG has been a game-changer for our organization. Their quality assurance audits have helped us identify areas for improvement and implement strategies that have elevated our services. The expertise and professionalism of their team are truly impressive. Highly recommended!",
+  },
+  {
+    name: "Client's Name",
+    title: "Position",
+    image: "impact2",
+    desc: "Working with The Good Practice Company NG has been a game-changer for our organization. Their quality assurance audits have helped us identify areas for improvement and implement strategies that have elevated our services. The expertise and professionalism of their team are truly impressive. Highly recommended!",
+  },
+  // {
+  //   name: "Client's Name",
+  //   title: "Position",
+  //   image: "impact1",
+  //   desc: "Working with The Good Practice Company NG has been a game-changer for our organization. Their quality assurance audits have helped us identify areas for improvement and implement strategies that have elevated our services. The expertise and professionalism of their team are truly impressive. Highly recommended!",
+  // },
+]);
+</script>
+<template>
+  <div class="bg-white flex flex-col py-16 lg:py-[112px] px-5 xl:px-0 w-full">
+    <div class="w-full mx-auto max-w-[1312px]">
+      <div class="w-full max-w-[560px]">
+        <h2
+          class="font-bold leading-snug lg:leading-[120%] text-[36px] lg:text-[48px] text-black dark:text-white"
+        >
+          Client Stories
+        </h2>
+
+        <p class="leading-[150%] md:text-lg mt-6 md:leading-[150%]">
+          Hear from our satisfied clients about their experiences
+        </p>
+      </div>
+      <div class="flex flex-col lg:flex-row gap-y-12 justify-between mt-20 items-start">
+        <div
+          class="flex flex-col justify-between relative rounded-2xl w-full md:max-w-[608px]"
+        >
+          <div class="flex gap-1">
+            <img v-for="i in 5" :key="i" src="/svg/star.svg" alt="star" />
+          </div>
+          <h6 class="text-xl text-primary font-semibold leading-[140%] my-8">
+            “TGPC's offshoring service has been a game-changer for our company.
+            They handle our marketing and social media management with utmost
+            professionalism and dedication.”
+          </h6>
+          <div class="flex items-center gap-3">
+            <div class="flex flex-col md:flex-row gap-4 md:gap-5 md:items-center">
+              <img class="w-14" src="/svg/icon-place.svg" alt="impact image" />
+              <div class="flex flex-col">
+                <p class="font-medium text-black">John Doe</p>
+                <p class="">Marketing Director, XYZ Company</p>
+              </div>
+              <div class="w-px hidden md:block h-[60px] bg-black" />
+              <img class="w-[120px]" src="/svg/webflow-sm.svg" alt="impact image" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col justify-between relative rounded-2xl w-full md:max-w-[608px]"
+        >
+          <div class="flex gap-1">
+            <img v-for="i in 5" :key="i" src="/svg/star.svg" alt="star" />
+          </div>
+          <h6 class="text-xl text-primary font-semibold leading-[140%] my-8">
+            “The matching service provided by TGPC has helped us find expert
+            staff at affordable rates. It has been a great solution for our
+            business needs.”
+          </h6>
+          <div class="flex items-center gap-3">
+            <div class="flex flex-col md:flex-row gap-4 md:gap-5 md:items-center">
+              <img class="w-14" src="/svg/icon-place.svg" alt="impact image" />
+              <div class="flex flex-col">
+                <p class="font-medium text-black">Jane Smith</p>
+                <p class="">CEO, ABC Corporation</p>
+              </div>
+              <div class="w-px hidden md:block h-[60px] bg-black" />
+              <img class="w-[120px]" src="/svg/webflow-sm.svg" alt="impact image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style lang="scss" scoped></style>

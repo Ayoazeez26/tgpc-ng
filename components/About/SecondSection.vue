@@ -1,26 +1,24 @@
 <script setup lang="ts"></script>
 <template>
-  <div
-    class="bg-grey-2 bg-blend-normal pt-[80px] lg:pt-[212px] lg:pb-[112px] w-full"
-  >
+  <div class="bg-grey-2 bg-blend-normal py-16 lg:py-[112px] w-full">
     <div
-      class="flex flex-col px-4 lg:px-0 justify-center lg:items-center w-full mx-auto max-w-[1312px]"
+      class="flex flex-col px-5 xl:px-0 justify-center lg:items-center w-full mx-auto max-w-[1312px]"
     >
       <div
-        class="flex flex-col md:flex-row px-4 lg:px-0 justify-between w-full"
+        class="flex flex-col md:flex-row justify-between w-full"
       >
         <div class="w-full md:ml-4 max-w-[616px]">
           <div class="text-primary font-medium mb-4">Excellence</div>
           <h2
-            class="font-bold leading-snug lg:leading-[120%] text-3xl lg:text-[48px] text-black dark:text-white"
+            class="font-bold leading-snug lg:leading-[120%] text-[36px] lg:text-[48px] text-black dark:text-white"
           >
             Outsourcing and Offshoring Solutions for Businesses
           </h2>
         </div>
         <div
-          class="mt-12 md:mt-0 flex flex-col justify-center md:w-[486px] w-full lg:w-[616px] relative"
+          class="flex flex-col justify-center md:w-[486px] w-full lg:w-[616px] relative"
         >
-          <p class="mt-8 leading-7 md:text-lg md:leading-[150%] md:mt-4">
+          <p class="mt-5 leading-[150%] md:text-lg md:leading-[150%] md:mt-4">
             At TGPC, we are dedicated to providing businesses with customized
             offshoring and outsourcing solutions. With our expertise and
             commitment to excellence, we help companies streamline their
@@ -29,7 +27,9 @@
             passion for delivering exceptional service and value to our
             international clientele.
           </p>
-          <div class="flex w-full md:w-auto gap-6 mt-10">
+          <div
+            class="flex flex-col md:flex-row gap-6 md:gap-5 mt-6 md:mt-10 w-full md:w-auto"
+          >
             <nuxt-link
               to="#contact"
               class="border border-grey-3 bg-white w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-black"
@@ -45,7 +45,7 @@
         </div>
       </div>
       <div class="mt-10 md:mt-20 w-full">
-        <img src="/img/excellence-img.png" alt="excellence image">
+        <img src="/img/excellence-img.png" alt="excellence image" />
       </div>
       <div id="about" />
     </div>

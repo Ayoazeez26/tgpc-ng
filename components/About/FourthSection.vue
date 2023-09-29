@@ -58,15 +58,17 @@ const team = ref([
 </script>
 <template>
   <div class="bg-white py-[60px] lg:py-[112px] w-full">
-    <div class="flex flex-col px-4 lg:px-0 items-start justify-center mx-auto w-full max-w-[1312px]">
+    <div
+      class="flex flex-col px-5 xl:px-0 items-start justify-center mx-auto w-full max-w-[1312px]"
+    >
       <div class="w-full flex flex-col gap-6 max-w-[768px] self-start">
         <h2
-          class="font-bold leading-snug lg:leading-[120%] text-3xl lg:text-[48px] text-black dark:text-white"
+          class="font-bold leading-snug lg:leading-[120%] text-[36px] lg:text-[48px] text-black dark:text-white"
         >
           Meet Our Team
         </h2>
 
-        <p class="leading-7 md:text-lg md:leading-[150%]">
+        <p class="leading-[150%] md:text-lg md:leading-[150%]">
           Get to know the dedicated professionals behind TGPC's success
         </p>
       </div>
@@ -76,7 +78,7 @@ const team = ref([
           :key="index"
           class="bg-transparent w-full md:max-w-[304px] gap-6 flex flex-col items-start"
         >
-          <img class="w-[304px]" :src="`/img/${member.img}.png`" alt="john" />
+          <img class="w-full sm:w-[304px]" :src="`/img/${member.img}.png`" alt="john" />
           <div class="flex flex-col">
             <p class="text-xl font-medium leading-[150%]">{{ member.name }}</p>
             <p class="text-lg leading-[150%]">{{ member.position }}</p>
@@ -99,8 +101,9 @@ const team = ref([
       </div>
       <div class="mt-24">
         <h3 class="text-[32px] font-bold leading-[130%]">We're hiring!</h3>
-        <p class="leading-7 md:text-lg mt-4 md:leading-[150%]">
-          We're always on the look out for passionate, dynamic and talented individuals.
+        <p class="leading-[150%] md:text-lg mt-4 leading-[150%]">
+          We're always on the look out for passionate, dynamic and talented
+          individuals.
         </p>
       </div>
       <div class="flex w-full gap-6 md:w-auto mt-6">

@@ -1,40 +1,148 @@
-<script setup lang="ts"></script>
-<template>
-  <div class="py-[140px] lg:py-[112px] bg-white w-full relative">
-    <img src="/svg/left-half.svg" alt="left half" class="absolute hidden md:block top-10 left-0">
-    <img src="/svg/right-half.svg" alt="left half" class="absolute hidden md:block bottom-10 right-0">
-    <div
-      class="flex flex-col px-4 lg:px-0 items-center justify-center mx-auto w-full max-w-[1312px]"
-    >
-      <div class="w-full flex flex-col gap-6 md:ml-4 max-w-[768px] text-center">
-        <h2
-          class="font-bold leading-snug lg:leading-[120%] text-3xl lg:text-[48px] text-black dark:text-white"
-        >
-          Outsource Your Operations with TGPC
-        </h2>
+<script setup lang="ts">
+const { $gsap, $ScrollTrigger } = useNuxtApp();
+const container = ref(null);
+const pinnedElement = ref(null);
 
-        <p class="leading-7 md:text-lg md:leading-[150%]">
-          Experience the benefits of our offshoring and outsourcing services
-          today
+// const mm = $gsap.matchMedia();
+
+const offsets = ref([262, 234, 234, 234, 234, 262, 262, 262]);
+const spacer = ref(40);
+
+const ctx = $gsap.context(() => {});
+onUnmounted(() => {
+  ctx.revert();
+});
+onMounted(() => {
+  setTimeout(() => {
+    console.log("mounted");
+    $ScrollTrigger.refresh();
+  }, 1000);
+  ctx.add(() => {
+    // mm.add("(min-width: 1024px)", () => {
+      $gsap.set(".wrapper", { xPercent: -50, yPercent: -50 });
+      const boxWidth = 200,
+        totalWidth = boxWidth * 16 + 200,
+        time = 20,
+        noO1 = document.querySelectorAll(".image"),
+        dirFromLeft = "+=" + totalWidth,
+        dirFromRight = "-=" + totalWidth;
+
+      const mod = $gsap.utils.wrap(0, totalWidth);
+
+      $gsap.set(noO1, {
+        x: function (i) {
+          return i * boxWidth;
+        },
+      });
+
+      const action = $gsap.timeline().to(noO1, {
+        x: dirFromRight,
+        modifiers: {
+          x: (x) => mod(parseFloat(x)) + "px",
+        },
+        duration: time,
+        ease: "none",
+        repeat: -1,
+      });
+    // });
+  });
+});
+</script>
+<template>
+  <div class="py-[40px] lg:py-[80px] bg-white w-full overflow-hidden relative">
+    <div
+      class="flex flex-col px-5 xl:px-0 items-center justify-center mx-auto w-full"
+    >
+      <div class="w-full flex flex-col gap-6 md:ml-4 max-w-[768px] md:text-center">
+        <p class="leading-[150%] text-black font-bold md:text-lg md:leading-[150%]">
+          Empowering businesses to achieve extraordinary growth
         </p>
-      </div>
-      <div class="flex w-full gap-6 md:w-auto mt-6">
-        <nuxt-link
-          to="#contact"
-          class="border border-black bg-black w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-white"
-          >Work with us
-          <Icon
-            name="mdi:arrow-right"
-            color="#FFF"
-            size="20"
-            class="ml-1 mb-0.5"
-          />
-        </nuxt-link>
-        <nuxt-link
-          to="#contact"
-          class="border border-grey-3 bg-white leading-normal w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-black"
-          >Learn more
-        </nuxt-link>
+        <div
+          class="wrapper w-[400%] h-12 left-1/2 top-[40%] overflow-hidden mt-12"
+        >
+          <div class="images">
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img
+                class="w-[200px] h-12"
+                src="/svg/webflow.svg"
+                alt="webflow"
+              />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img
+                class="w-[200px] h-12"
+                src="/svg/webflow.svg"
+                alt="webflow"
+              />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img
+                class="w-[200px] h-12"
+                src="/svg/webflow.svg"
+                alt="webflow"
+              />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img
+                class="w-[200px] h-12"
+                src="/svg/webflow.svg"
+                alt="webflow"
+              />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img
+                class="w-[200px] h-12"
+                src="/svg/webflow.svg"
+                alt="webflow"
+              />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img
+                class="w-[200px] h-12"
+                src="/svg/webflow.svg"
+                alt="webflow"
+              />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img
+                class="w-[200px] h-12"
+                src="/svg/webflow.svg"
+                alt="webflow"
+              />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img class="w-[200px] h-12" src="/svg/relume.svg" alt="relume" />
+            </div>
+            <div class="image absolute w-[200px] h-12 mx-6">
+              <img
+                class="w-[200px] h-12"
+                src="/svg/webflow.svg"
+                alt="webflow"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

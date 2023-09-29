@@ -33,7 +33,7 @@
       </button>
       <div
         @click="open = !open"
-        class="mt-6 hidden lg:mt-0 lg:flex flex-col md:flex-row gap-3 md:gap-5 w-full md:w-auto"
+        class="mt-6 hidden lg:mt-0 lg:flex flex-col md:flex-row gap-6 md:gap-5 w-full md:w-auto"
       >
         <nuxt-link
           to="#contact"
@@ -81,7 +81,7 @@
             <nuxt-link to="#">Blog</nuxt-link>
           </li> -->
           <div
-            class="flex flex-col md:flex-row gap-3 md:gap-5 mt-10 w-full md:w-auto"
+            class="flex flex-col md:flex-row gap-6 md:gap-5 mt-10 w-full md:w-auto"
           >
             <nuxt-link
               to="#contact"

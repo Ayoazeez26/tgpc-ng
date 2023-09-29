@@ -1,20 +1,21 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="py-[140px] lg:py-[112px] mx-auto w-full max-w-[1312px]">
-    <div class="flex flex-col px-4 lg:px-0 items-center justify-center w-full">
-      <div class="w-full flex flex-col gap-6 md:ml-4 max-w-[768px] text-center">
+  <div class="py-16 lg:py-[112px] mx-auto w-full max-w-[1312px]">
+    <div class="flex flex-col px-5 xl:px-0 items-center justify-center w-full">
+      <div class="w-full flex flex-col gap-4 lg:gap-6 md:ml-4 max-w-[768px] text-center">
         <h2
-          class="font-bold leading-snug lg:leading-[120%] text-3xl lg:text-[48px] text-black dark:text-white"
+          class="font-bold leading-snug lg:leading-[120%] text-[36px] lg:text-[48px] text-black dark:text-white"
         >
           We'd love to hear from you
         </h2>
 
-        <p class="leading-7 md:text-lg md:leading-[150%]">
+        <p class="leading-[150%] md:text-lg md:leading-[150%]">
           Chat to our friendly team.
         </p>
       </div>
-      <img class="rounded-2xl" src="/img/hear-img.png" alt="hear img" />
-      <div class="mt-24 gap-8 flex justify-center flex-wrap w-full">
+      <img class="my-12 md:hidden" src="/img/hear-img-mob.png" alt="hear img mob" />
+      <img class="rounded-2xl mt-12 hidden md:block" src="/img/hear-img.png" alt="hear img" />
+      <div class="md:mt-24 gap-8 flex justify-center flex-wrap w-full">
         <div
           class="border border-grey-3 bg-white rounded-2xl w-full md:max-w-[384px] gap-16 flex flex-col p-6"
         >
@@ -22,7 +23,9 @@
           <div class="flex flex-col">
             <h3 class="text-xl font-bold leading-[140%]">Chat to sales</h3>
             <p class="leading-[150%]">Speak to our friendly team.</p>
-            <a href="mailto:ssales@untitledui.com" class="mt-5 underline">sales@untitledui.com</a>
+            <a href="mailto:ssales@untitledui.com" class="mt-5 underline"
+              >sales@untitledui.com</a
+            >
           </div>
         </div>
         <div
@@ -32,7 +35,10 @@
           <div class="flex flex-col">
             <h3 class="text-xl font-bold leading-[140%]">Chat to sales</h3>
             <p class="leading-[150%]">Speak to our friendly team.</p>
-            <p class="mt-5 underline">100 Smith Street <br> Collingwood VIC 3066 AU</p>
+            <p class="mt-5 underline">
+              100 Smith Street <br />
+              Collingwood VIC 3066 AU
+            </p>
           </div>
         </div>
         <div

@@ -1,41 +1,43 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="bg-grey-2 bg-blend-normal pt-[80px] lg:pt-[212px] lg:pb-[112px] w-full"
+    class="bg-grey-2 bg-blend-normal py-16 lg:py-[112px] w-full"
   >
     <div
-      class="flex flex-col px-4 lg:px-0 justify-center lg:items-center w-full mx-auto max-w-[1312px]"
+      class="flex flex-col px-5 xl:px-0 justify-center lg:items-center w-full mx-auto max-w-[1312px]"
     >
       <div
-        class="flex flex-col md:flex-row px-4 lg:px-0 justify-between w-full"
+        class="flex flex-col md:flex-row justify-between w-full"
       >
         <div class="w-full md:ml-4 max-w-[616px]">
           <div class="text-primary font-medium mb-4">Impact</div>
           <h2
-            class="font-bold leading-snug lg:leading-[120%] text-3xl lg:text-[48px] text-black dark:text-white"
+            class="font-bold leading-snug lg:leading-[120%] text-[36px] lg:text-[48px] text-black dark:text-white"
           >
             Driving Success Through Offshoring Solutions
           </h2>
         </div>
         <div
-          class="mt-12 md:mt-0 flex flex-col justify-center md:w-[486px] w-full lg:w-[616px] relative"
+          class="flex flex-col justify-center md:w-[486px] w-full lg:w-[616px] relative"
         >
-          <p class="mt-8 leading-7 md:text-lg md:leading-[150%] md:mt-4">
+          <p class="mt-5 md:leading-[150%] md:text-lg leading-[150%] md:mt-4">
             Discover how TGPC's offshoring services have revolutionized
             businesses across various industries, providing cost-effective
             solutions and expert staff.
           </p>
-          <div class="flex w-full md:w-auto gap-6 mt-8">
+          <div class="flex flex-col md:flex-row w-full md:w-auto gap-6 mt-8">
             <div class="flex flex-col gap-2">
               <h4 class="font-bold text-[48px] leading-[120%]">50%</h4>
               <p class="leading-[150%]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros.
               </p>
             </div>
             <div class="flex flex-col gap-2">
               <h4 class="font-bold text-[48px] leading-[120%]">50%</h4>
               <p class="leading-[150%]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros.
               </p>
             </div>
           </div>
