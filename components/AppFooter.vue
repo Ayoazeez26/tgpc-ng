@@ -38,7 +38,7 @@
       </div>
       <div class="w-full flex items-center text-center md:w-auto mt-20 md:mt-0">
         <nuxt-link
-          to="#"
+          to="/contact"
           class="bg-white text-black px-8 py-4 rounded w-full text-sm"
           >Work with us <Icon name="mdi:arrow-right" size="20" class="ml-1"
         /></nuxt-link>
@@ -60,10 +60,10 @@
       >
         <div class="flex flex-col text-center md:flex-row md:text-left text-sm gap-10">
           <nuxt-link to="/">Home</nuxt-link>
-          <nuxt-link to="/#about">About Us</nuxt-link>
-          <nuxt-link to="/#services">Services</nuxt-link>
-          <!-- <nuxt-link class="mb-6" to="/projects">Industries Served</nuxt-link> -->
-          <nuxt-link to="/projects">Blog</nuxt-link>
+          <nuxt-link to="/about">About Us</nuxt-link>
+          <nuxt-link to="/services">Services</nuxt-link>
+          <nuxt-link class="mb-6" to="/contact">Contact</nuxt-link>
+          <!-- <nuxt-link to="/projects">Blog</nuxt-link> -->
         </div>
         <!-- <div class="flex flex-col text-green">
           <a href="#" target="_blank" class="mb-6">LinkedIn</a>

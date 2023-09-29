@@ -31,19 +31,13 @@
             class="flex flex-col md:flex-row gap-6 md:gap-5 mt-6 md:mt-10 w-full md:w-auto"
           >
             <nuxt-link
-              to="#contact"
-              class="border border-black bg-black w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-white"
+              to="/services"
+              class="border border-black flex items-center justify-center bg-black w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded text-white"
               >Learn more
-              <Icon
-                name="mdi:arrow-down"
-                color="#FFF"
-                size="20"
-                class="ml-1 mb-0.5"
-              />
             </nuxt-link>
             <nuxt-link
-              to="#contact"
-              class="border border-grey-3 bg-white w-full md:w-auto text-center flex items-center justify-center text-sm font-semibold py-4 px-8 rounded leading-none text-black"
+              to="/contact"
+              class="border border-grey-3 bg-white w-full md:w-auto text-center flex items-center justify-center text-sm font-semibold py-4 px-8 rounded text-black"
               >Contact us
             </nuxt-link>
           </div>

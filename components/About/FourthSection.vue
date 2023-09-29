@@ -78,7 +78,11 @@ const team = ref([
           :key="index"
           class="bg-transparent w-full md:max-w-[304px] gap-6 flex flex-col items-start"
         >
-          <img class="w-full sm:w-[304px]" :src="`/img/${member.img}.png`" alt="john" />
+          <img
+            class="w-full sm:w-[304px]"
+            :src="`/img/${member.img}.png`"
+            alt="john"
+          />
           <div class="flex flex-col">
             <p class="text-xl font-medium leading-[150%]">{{ member.name }}</p>
             <p class="text-lg leading-[150%]">{{ member.position }}</p>
@@ -101,7 +105,7 @@ const team = ref([
       </div>
       <div class="mt-24">
         <h3 class="text-[32px] font-bold leading-[130%]">We're hiring!</h3>
-        <p class="leading-[150%] md:text-lg mt-4 leading-[150%]">
+        <p class="leading-[150%] md:text-lg mt-4 md:leading-[150%]">
           We're always on the look out for passionate, dynamic and talented
           individuals.
         </p>
@@ -109,11 +113,11 @@ const team = ref([
       <div class="flex w-full gap-6 md:w-auto mt-6">
         <nuxt-link
           to="#contact"
-          class="border border-grey-3 bg-white w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-black"
+          class="border border-grey-3 bg-white w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded text-black/50"
           >Open Positions
           <Icon
             name="mdi:arrow-right"
-            color="#0A0A0A"
+            color="#0A0A0A77"
             size="20"
             class="ml-1 mb-0.5"
           />

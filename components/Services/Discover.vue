@@ -14,12 +14,13 @@
           </h2>
 
           <p class="leading-[150%] md:text-lg mt-6 md:leading-[150%]">
-            Find out how TGPC's offshoring and outsourcing solutions can benefit your business.
+            Find out how TGPC's offshoring and outsourcing solutions can benefit
+            your business.
           </p>
           <div class="flex w-full md:w-auto mt-10">
             <nuxt-link
-              to="#contact"
-              class="border border-black bg-black w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-white"
+              to="/contact"
+              class="border border-black bg-black w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded text-white"
               >Contact us
               <Icon
                 name="mdi:arrow-right"

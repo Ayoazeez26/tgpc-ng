@@ -4,9 +4,7 @@
     <div
       class="flex flex-col px-5 xl:px-0 justify-center lg:items-center w-full mx-auto max-w-[1312px]"
     >
-      <div
-        class="flex flex-col md:flex-row justify-between w-full"
-      >
+      <div class="flex flex-col md:flex-row justify-between w-full">
         <div class="w-full md:ml-4 max-w-[616px]">
           <div class="text-primary font-medium mb-4">Excellence</div>
           <h2
@@ -31,8 +29,8 @@
             class="flex flex-col md:flex-row gap-6 md:gap-5 mt-6 md:mt-10 w-full md:w-auto"
           >
             <nuxt-link
-              to="#contact"
-              class="border border-grey-3 bg-white w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-black"
+              to="/services"
+              class="border border-grey-3 bg-white w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded text-black"
               >Learn more
               <Icon
                 name="mdi:arrow-right"

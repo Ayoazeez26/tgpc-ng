@@ -18,7 +18,7 @@
           class="flex flex-col md:flex-row gap-6 md:gap-5 mt-10 w-full md:w-auto"
         >
           <nuxt-link
-            to="#contact"
+            to="/contact"
             class="border-2 border-white text-center text-sm bg-white font-semibold px-8 py-4 leading-none rounded text-black"
             >Work with us
             <Icon
@@ -28,15 +28,10 @@
               class="ml-1 mb-0.5"
           /></nuxt-link>
           <nuxt-link
-            to="#contact"
-            class="border border-grey-3 bg-black text-center text-sm font-semibold py-4 px-8 rounded leading-none text-white"
-            >Learn more
-            <Icon
-              name="mdi:arrow-down"
-              color="#FFF"
-              size="20"
-              class="ml-1 mb-0.5"
-          /></nuxt-link>
+            to="/services"
+            class="border border-grey-3 flex items-center justify-center bg-black text-center text-sm font-semibold py-4 px-8 rounded text-white"
+            >Learn more</nuxt-link
+          >
         </div>
         <nuxt-link
           to="#about"

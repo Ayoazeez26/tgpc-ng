@@ -152,7 +152,7 @@ watch(message, (value) => {
             <div class="w-full lg:w-1/2 mx-auto mt-6">
               <button
                 type="submit"
-                class="liquor-btn min-w-max p-4 leading-none rounded bg-black text-white w-full hover:bg-pink/90"
+                class="liquor-btn min-w-max p-4 rounded bg-black text-white w-full hover:bg-pink/90"
               >
                 Contact us
               </button>

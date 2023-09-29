@@ -36,18 +36,13 @@
         class="mt-6 hidden lg:mt-0 lg:flex flex-col md:flex-row gap-6 md:gap-5 w-full md:w-auto"
       >
         <nuxt-link
-          to="#contact"
-          class="border border-grey-3 bg-black text-center text-sm font-semibold py-4 px-8 rounded leading-none text-white"
-          >Learn more
-          <Icon
-            name="mdi:arrow-down"
-            color="#FFF"
-            size="20"
-            class="ml-1 mb-0.5"
-        /></nuxt-link>
+          to="/services"
+          class="border border-grey-3 flex items-center justify-center bg-black text-center text-sm font-semibold py-4 px-8 rounded text-white"
+          >Learn more</nuxt-link
+        >
         <nuxt-link
-          to="#contact"
-          class="border-2 border-white text-center text-sm bg-white font-semibold px-8 py-4 leading-none rounded text-black"
+          to="/contact"
+          class="border-2 border-white text-center text-sm bg-white font-semibold px-8 py-4 rounded text-black"
           >Work with us
           <Icon
             name="mdi:arrow-right"
@@ -65,7 +60,7 @@
           <Icon name="ic:round-close" size="24px" />
         </button>
         <ul
-          class="flex lg:hidden flex-col lg:flex-row lg:items-center gap-4 mt-10 lg:mt-0 lg:gap-8"
+          class="flex lg:hidden flex-col lg:flex-row lg:items-center gap-8 mt-10 w-full lg:mt-0 lg:gap-8"
         >
           <li @click="open = !open"><nuxt-link to="/">Home</nuxt-link></li>
           <li @click="open = !open">
@@ -81,25 +76,21 @@
             <nuxt-link to="#">Blog</nuxt-link>
           </li> -->
           <div
+            @click="open = !open"
             class="flex flex-col md:flex-row gap-6 md:gap-5 mt-10 w-full md:w-auto"
           >
             <nuxt-link
-              to="#contact"
-              class="border-2 border-white text-center text-sm bg-white font-semibold px-8 py-4 leading-none rounded text-black"
+              to="/services"
+              class="border border-grey-3 flex items-center justify-center w-full bg-black text-center text-sm font-semibold py-4 px-8 rounded text-white"
+              >Learn more</nuxt-link
+            >
+            <nuxt-link
+              to="/contact"
+              class="border-2 border-white text-center text-sm bg-white w-full font-semibold px-8 py-4 rounded text-black"
               >Work with us
               <Icon
                 name="mdi:arrow-right"
                 color="#0A0A0A"
-                size="20"
-                class="ml-1 mb-0.5"
-            /></nuxt-link>
-            <nuxt-link
-              to="#contact"
-              class="border border-grey-3 bg-black text-center text-sm font-semibold py-4 px-8 rounded leading-none text-white"
-              >Learn more
-              <Icon
-                name="mdi:arrow-down"
-                color="#FFF"
                 size="20"
                 class="ml-1 mb-0.5"
             /></nuxt-link>
@@ -228,7 +219,7 @@ header {
       right: 0;
       width: 500px;
       max-width: 100vw;
-      background-color: $primary;
+      background-color: $black;
       z-index: 100;
       &__toggle {
         display: none;

@@ -18,8 +18,8 @@
         </p>
         <div class="flex w-full md:w-auto mt-6 md:mt-10">
           <nuxt-link
-            to="#contact"
-            class="border border-black bg-black w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-white"
+            to="/contact"
+            class="border border-black bg-black w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded text-white"
             >Work with us
             <Icon
               name="mdi:arrow-right"

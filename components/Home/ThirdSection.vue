@@ -53,8 +53,8 @@
         class="flex flex-col md:flex-row gap-6 md:gap-5 mt-10 w-full md:w-auto"
       >
         <nuxt-link
-          to="contact"
-          class="border border-black bg-black w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-white"
+          to="/contact"
+          class="border border-black bg-black w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded text-white"
           >Work with us
           <Icon
             name="mdi:arrow-right"
@@ -64,8 +64,8 @@
           />
         </nuxt-link>
         <nuxt-link
-          to="#contact"
-          class="border border-grey-3 bg-white w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-black"
+          to="/services"
+          class="border border-grey-3 bg-white w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded text-black"
           >Learn more
         </nuxt-link>
       </div>

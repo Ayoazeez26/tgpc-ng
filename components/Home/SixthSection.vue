@@ -107,11 +107,11 @@ const team = ref([
       <div class="flex w-3/5 gap-6 md:w-auto mt-6">
         <nuxt-link
           to="#contact"
-          class="border border-grey-3 bg-white w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded leading-none text-black"
+          class="border border-grey-3 bg-white w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded text-black/50"
           >Open Positions
           <Icon
             name="mdi:arrow-right"
-            color="#0A0A0A"
+            color="#0A0A0A77"
             size="20"
             class="ml-1 mb-0.5"
           />
