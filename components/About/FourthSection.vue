@@ -112,7 +112,7 @@ const team = ref([
       </div>
       <div class="flex w-full gap-6 md:w-auto mt-6">
         <nuxt-link
-          to="#contact"
+          to="#"
           class="border border-grey-3 bg-white w-full md:w-auto text-center text-sm font-semibold py-4 px-8 rounded text-black/50"
           >Open Positions
           <Icon
