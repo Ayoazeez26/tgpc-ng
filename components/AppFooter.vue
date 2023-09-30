@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="bg-black-2 text-green min-h-[526px] pt-10 flex flex-col justify-between relative text-grey-2 px-4"
+    class="bg-black-2 min-h-[526px] pt-10 flex flex-col justify-between relative text-grey-2 px-4"
   >
     <div
       class="my-10 md:py-[120px] flex flex-col md:flex-row md:justify-between items-stretch md:items-end w-full max-w-[1312px] mx-auto"
@@ -17,7 +17,7 @@
         <h2
           class="font-semibold text-bg text-[36px] md:text-[40px] lg:text-[48px] leading-[44px] md:leading-[56px]"
         >
-          Make a Positive Impact on the Lives of Your Patients!
+          Make a Positive Impact on the Lives of Your Business!
         </h2>
         <ul class="impact list-inside flex flex-col gap-4">
           <li>

@@ -21,10 +21,10 @@
         >
           <img class="w-12" src="/img/chat.png" alt="cost" />
           <div class="flex flex-col">
-            <h3 class="text-xl font-bold leading-[140%]">Chat to sales</h3>
+            <h3 class="text-xl font-bold leading-[140%]">Send us an Email</h3>
             <p class="leading-[150%]">Speak to our friendly team.</p>
-            <a href="mailto:ssales@untitledui.com" class="mt-5 underline"
-              >sales@untitledui.com</a
+            <a href="mailto:connectwithus@tgpcmedia.com" class="mt-5 underline"
+              >connectwithus@tgpcmedia.com</a
             >
           </div>
         </div>
@@ -33,11 +33,10 @@
         >
           <img class="w-12" src="/img/location.png" alt="cost" />
           <div class="flex flex-col">
-            <h3 class="text-xl font-bold leading-[140%]">Chat to sales</h3>
-            <p class="leading-[150%]">Speak to our friendly team.</p>
+            <h3 class="text-xl font-bold leading-[140%]">Visit us</h3>
+            <p class="leading-[150%]">Visit our office HQ.</p>
             <p class="mt-5 underline">
-              100 Smith Street <br />
-              Collingwood VIC 3066 AU
+              7a Milverton Rd, Ikoyi 106104, Lagos
             </p>
           </div>
         </div>
@@ -46,9 +45,9 @@
         >
           <img class="w-12" src="/img/phone.png" alt="cost" />
           <div class="flex flex-col">
-            <h3 class="text-xl font-bold leading-[140%]">Visit us</h3>
-            <p class="leading-[150%]">Visit our office HQ.</p>
-            <p class="mt-5 underline">+1 (555) 000-0000</p>
+            <h3 class="text-xl font-bold leading-[140%]">Give us a Call</h3>
+            <p class="leading-[150%]">Mon-Fri from 8am to 5pm</p>
+            <p class="mt-5 underline">+234 708 1352 2726</p>
           </div>
         </div>
       </div>
