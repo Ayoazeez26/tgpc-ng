@@ -17,10 +17,11 @@
           expensive to handle in-house. Our international clientele benefits
           from our professional and committed offshoring service.
         </p>
-        <ul class="check-list list-inside flex flex-col gap-4 px-4 py-2 mt-5 md:mt-8">
-          <li>Agribusiness: Bid Writing</li>
-          <li>Health and Social Care: Tender Writing</li>
-          <li>Health and Social Care: Marketing</li>
+        <p class=" mt-5 md:mt-8 mb-2">List of industries we outsource to:</p>
+        <ul class="check-list list-inside flex flex-col gap-4 px-4 py-2">
+          <li>Agribusiness</li>
+          <li>Health and Social Care</li>
+          <li>Transportation</li>
         </ul>
       </div>
       <div

@@ -21,8 +21,8 @@
           <div class="flex flex-col">
             <h3 class="text-xl font-bold leading-[140%]">Send us an Email</h3>
             <p class="leading-[150%]">Speak to our friendly team.</p>
-            <a href="mailto:connectwithus@tgpcmedia.com" class="mt-5 underline"
-              >connectwithus@tgpcmedia.com</a
+            <a href="mailto:connectwithus@tgpcng.com" class="mt-5 underline"
+              >connectwithus@tgpcng.com</a
             >
           </div>
         </div>
@@ -33,9 +33,7 @@
           <div class="flex flex-col">
             <h3 class="text-xl font-bold leading-[140%]">Visit us</h3>
             <p class="leading-[150%]">Visit our office HQ.</p>
-            <p class="mt-5 underline">
-              7a Milverton Rd, Ikoyi 106104, Lagos
-            </p>
+            <p class="mt-5 underline">7a Milverton Rd, Ikoyi 106104, Lagos</p>
           </div>
         </div>
         <div

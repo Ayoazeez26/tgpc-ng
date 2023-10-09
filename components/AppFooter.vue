@@ -10,8 +10,8 @@
         src="/svg/mission-bg-half.svg"
         alt="mission-bg"
       />
-      <div class="flex flex-col items-start gap-y-6 w-full max-w-[660px]">
-        <p class="text-sm border border-grey rounded px-4 py-3">
+      <div class="flex flex-col items-start w-full max-w-[660px]">
+        <p class="text-sm border border-grey rounded px-4 py-3 mb-6">
           The Good Practice Company
         </p>
         <h2
@@ -19,7 +19,7 @@
         >
           Make a Positive Impact on the Lives of Your Business!
         </h2>
-        <ul class="impact list-inside flex flex-col gap-4">
+        <!-- <ul class="impact list-inside flex flex-col gap-4">
           <li>
             Dedicated to improving healthcare and social care services in
             Nigeria
@@ -29,19 +29,19 @@
             Striving to make a positive impact on the lives of individuals and
             communities
           </li>
-        </ul>
+        </ul> -->
+        <div class="w-full flex items-center text-center md:w-auto mt-20 md:mt-10">
+          <nuxt-link
+            to="/contact"
+            class="bg-white text-black px-8 py-4 rounded w-full text-sm"
+            >Work with us <Icon name="mdi:arrow-right" size="20" class="ml-1"
+          /></nuxt-link>
+        </div>
         <img
           class="mt-10 lg:hidden"
           src="/svg/mission-bg.svg"
           alt="mission line"
         />
-      </div>
-      <div class="w-full flex items-center text-center md:w-auto mt-20 md:mt-0">
-        <nuxt-link
-          to="/contact"
-          class="bg-white text-black px-8 py-4 rounded w-full text-sm"
-          >Work with us <Icon name="mdi:arrow-right" size="20" class="ml-1"
-        /></nuxt-link>
       </div>
     </div>
     <div

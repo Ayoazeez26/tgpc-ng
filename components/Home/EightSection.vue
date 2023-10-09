@@ -2,7 +2,9 @@
 <template>
   <div class="py-16 lg:py-[112px] mx-auto w-full max-w-[1312px]">
     <div class="flex flex-col px-5 xl:px-0 items-center justify-center w-full">
-      <div class="w-full flex flex-col gap-4 lg:gap-6 md:ml-4 max-w-[768px] text-center">
+      <div
+        class="w-full flex flex-col gap-4 lg:gap-6 md:ml-4 max-w-[768px] text-center"
+      >
         <h2
           class="font-bold leading-snug lg:leading-[120%] text-[36px] lg:text-[48px] text-black dark:text-white"
         >
@@ -13,8 +15,16 @@
           Chat to our friendly team.
         </p>
       </div>
-      <img class="my-12 md:hidden" src="/img/hear-img-mob.png" alt="hear img mob" />
-      <img class="rounded-2xl mt-12 hidden md:block" src="/img/hear-img.png" alt="hear img" />
+      <img
+        class="my-12 md:hidden"
+        src="/img/hear-img-mob.png"
+        alt="hear img mob"
+      />
+      <img
+        class="rounded-2xl mt-12 hidden md:block"
+        src="/img/hear-img.png"
+        alt="hear img"
+      />
       <div class="md:mt-24 gap-8 flex justify-center flex-wrap w-full">
         <div
           class="border border-grey-3 bg-white rounded-2xl w-full md:max-w-[384px] gap-16 flex flex-col p-6"
@@ -23,8 +33,8 @@
           <div class="flex flex-col">
             <h3 class="text-xl font-bold leading-[140%]">Send us an Email</h3>
             <p class="leading-[150%]">Speak to our friendly team.</p>
-            <a href="mailto:connectwithus@tgpcmedia.com" class="mt-5 underline"
-              >connectwithus@tgpcmedia.com</a
+            <a href="mailto:connectwithus@tgpcng.com" class="mt-5 underline"
+              >connectwithus@tgpcng.com</a
             >
           </div>
         </div>
@@ -35,9 +45,7 @@
           <div class="flex flex-col">
             <h3 class="text-xl font-bold leading-[140%]">Visit us</h3>
             <p class="leading-[150%]">Visit our office HQ.</p>
-            <p class="mt-5 underline">
-              7a Milverton Rd, Ikoyi 106104, Lagos
-            </p>
+            <p class="mt-5 underline">7a Milverton Rd, Ikoyi 106104, Lagos</p>
           </div>
         </div>
         <div

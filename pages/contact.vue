@@ -6,7 +6,7 @@
     <ContactSecondSection />
     <ContactCTA />
     <ContactStart />
-    <AboutNinthSection />
+    <HomeEightSection />
   </div>
 </template>
 
